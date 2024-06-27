@@ -1,28 +1,28 @@
 {
-    "name": "dcat/laravel-admin",
-    "description": "dcat admin",
+    "name": "imwutao/laravel-admin",
+    "description": "imwutao admin",
     "type": "library",
     "keywords": ["dcat", "laravel", "admin", "grid", "form", "laravel admin"],
-    "homepage": "https://github.com/jqhph/dcat-admin",
+    "homepage": "https://github.com/imwutao/dcat-admin",
     "license": "MIT",
     "authors": [
         {
-            "name": "jqh",
-            "email": "841324345@qq.com"
+            "name": "wutao",
+            "email": "1052061078@qq.com"
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "laravel/framework": "~5.5|~6.0|~7.0|~8.0|~9.0|~10.0",
+        "php": ">=8.3",
+        "laravel/framework": "~5.5|~6.0|~7.0|~8.0|~9.0|~10.0|~11",
         "spatie/eloquent-sortable": "3.*|4.*",
-        "doctrine/dbal": "^2.6|^3.0"
+        "doctrine/dbal": "^2.6|^3.0|^4.0"
     },
     "require-dev": {
-        "laravel/dusk": "~5.9|~6",
-        "phpstan/phpstan": "^0.12.0",
+        "laravel/dusk": "~5.9|~6|~8",
+        "phpstan/phpstan": "^0.12.0|^1.11.0",
         "phpunit/phpunit": "^7.5|~9",
-        "fzaninotto/faker": "^1.4",
-        "mockery/mockery": "^1.0"
+        "fzaninotto/faker": "^1.9",
+        "mockery/mockery": "^1.6"
     },
     "autoload": {
         "psr-4": {
